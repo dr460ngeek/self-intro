@@ -41,16 +41,32 @@ print_ln(stream: any, str: string, fg: string = fg_color, bg: string = bg_color)
 
 function
 print_Pratham() {
-    print_ln(stdout, 'Hello, I am \n\
-    ######                                           \n\
-    #     # #####    ##   ##### #    #   ##   #    # \n\
-    #     # #    #  #  #    #   #    #  #  #  ##  ## \n\
-    ######  #    # #    #   #   ###### #    # # ## # \n\
-    #       #####  ######   #   #    # ###### #    # \n\
-    #       #   #  #    #   #   #    # #    # #    # \n\
-    #       #    # #    #   #   #    # #    # #    # \n');
+    print_ln(stdout,
+'                      .c                         \n\
+                     ::,dkddlcc;`;,.              \n\
+                     .,kkONMMMMWo`cNo             \n\
+                  :kx:dOWMMMMMMK,..o` .c          \n\
+                .lK0 .;;,;okOo. cxc.  .Nx         \n\
+                 ;Mc.o                 `Wc.       \n\
+                 .WO Kx.               ;dO;l.     \n\
+    .okko;.       .kx;kWOl;.    ....  .dllodc     \n\
+        .;lxxdc`.     .oOOkdcd0WMXOxl.;x:dxc.     \n\
+              .:oxdo;:okX``.`;:cox0WW00:  .0.     \n\
+                    .c::olo;.`      `l,o.  dO     \n\
+                      xK`O.oWOxo:  .: xo    K:    \n\
+                      `loolll::d0kKKoOX.    ,N.   \n\
+                     xl;oONWKkldNMWKx;       dO   \n\
+                    ..;WWo.    ..             X:  \n\
+                    l;O0,      `.dd0`         `X. \n\
+                    0k..x;    :xc0OlO.         oc \n\
+                    ,WO,;Xd;,;:dOklc`             \n\
+                     .kNMMMN:...:0MMWX`           \n\
+                   ok:0o;,;;;`.   xM:Ox           \n\
+                  .l:k;l:         ``x..           \n\
+                   c`Kl.        ,::XO:            \n\
+                           `:cdKMNKd.             \n\
+                             :odc.                \n');
 }
-
 function
 print_prompt() {
     print_out(stdout, 'dr460n $ ', 'green');
